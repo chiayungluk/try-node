@@ -4,3 +4,4 @@ ARG VARIANT=18-bullseye
 FROM mcr.microsoft.com/devcontainers/typescript-node:${VARIANT}
 
 RUN npm install commitizen -g
+RUN npm install @nestjs/cli -g
