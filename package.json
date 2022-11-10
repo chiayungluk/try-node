@@ -1,5 +1,5 @@
 {
-  "name": "try_node_app",
+  "name": "try_node_nest",
   "version": "1.0.0",
   "description": "Node.js project built on NestJS",
   "author": "Chiayung Luk <chiayung.luk@gmail.com>",
@@ -22,6 +22,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/cli": "^9.1.5",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
@@ -33,7 +34,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/testing": "^9.0.0",
     "@semantic-release/changelog": "^6.0.1",
